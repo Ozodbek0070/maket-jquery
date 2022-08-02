@@ -1,0 +1,394 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.header_1{
+  width: 100%;
+  height: 130px;
+  background-color: #131F35;
+  color: white;
+}
+.header_input{
+	height: 85px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   	justify-content: center;
+    align-items: center;
+  	border-bottom: solid 2px  #B9B9B9;
+}
+#search_header{
+	width: 420px;
+	height: 40px;
+	font-size: 12px;
+	font-style: italic;
+	color: rgb(171 171 171);
+}
+.icons{
+	float: right;
+	width: 270px;
+
+	justify-content: space-between;
+}
+#sup{
+	font-size: 12px;
+	border-radius:70%;
+	background-color: #F50000;
+}
+.container .header .header_input input[type="text"]{
+  	width: 610px;
+    height: 47px;
+  	border-radius: 15px;
+}
+.header_low{
+  	display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.shop{
+    align-content: flex-end; 
+}
+.header_menu{
+    display: flex;
+    /*justify-content: center;*/
+
+}
+.header_menu a{
+	font-size: 14.5px;
+    color: white;
+	text-decoration-line: none;
+	/*display: inline-flex;*/
+	flex-direction: row;
+}
+.number a{
+  	color: #8B92A1;
+  	justify-content: center;
+  	text-decoration-line: none;
+}
+.recently{
+  	justify-content: center;  
+}
+.header_items{
+  	justify-content: space-between;
+}
+
+
+
+
+.GoStore{
+	/*GoStore is largest Electronics Retailer */
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 39px;
+	color: #000000;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.Network{
+
+	/*Network of 400+*/
+	margin-left: 20px; 
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	color: #747474;
+}
+
+.Foto_Facebook_jpg{
+
+	/*Foto-1*/
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.search1{
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.search2{
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.search_select_buy1{
+
+	width: 530px;
+	height: 350px;
+}
+
+.foto_bank_card1{
+
+	width: 490px;
+	height: 350px;
+}
+
+.search_select_buy2{
+
+	width: 430px;
+	height: 355px;
+}
+
+.foto_bank_card2{
+
+	width: 570px;
+	height: 355px;
+}
+
+.search_select_buy3{
+
+	width: 530px;
+	height: 350px;
+}
+
+.foto_bank_card3{
+
+	width: 490px;
+	height: 350px;
+}
+
+.btn_WHO-ARE{
+    /*button-WHO ARE-RED*/
+	width: 110px;
+	height: 17px;
+	padding: 8px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12.5px;
+	line-height: 150%;
+	color: #FFFFFF;
+	background-color: red;
+}
+
+#SEARCH_SELECT_BUY{
+
+	/*SEARCH, SELECT, BUY*/
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 100%;
+	color: #000000;
+}
+
+#Amet_minim_mollit{
+
+	/*Amet minim mollit*/
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 160%;
+	color: #545C6C;
+}
+
+#VIEW_MORE{
+
+	/*VIEW MORE*/
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	color: #000000;
+}
+.TOP_FAMOUS_BRANDS{
+
+	/*TOP FAMOUS BRANDS*/
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 34px;
+	color: #000000;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.Lorem_dolor{
+
+	/*Lorem dolor sit amet,*/
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 145%;
+	text-align: center;
+	color: #747474;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.Grey_line{
+	display: flex;
+	justify-content: center;
+}
+
+#Grey_line__1{
+	width: 1350px;
+	height: 2.3px;
+	background: #B9B9B9;
+}
+
+.Pictures_wikipediya{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#foto{
+	width: 175px;
+}
+
+.WE_LOVE{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#OUR_CORE_THEME{
+	
+	/*OUR_CORE_THEME*/
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 34px;
+	color: #000000;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.biografiya{
+	display: flex;
+	justify-content: center; 
+}
+
+.Pictures_6{
+	width: 105px;
+}
+
+#biographis{
+	width: 170px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 10px;
+	line-height: 170%;
+	color: #747474;
+}
+
+#names{
+	font-family: 'Montserrat';
+	font-style: bold;
+	font-size: 14px;
+	color: black;
+}
+
+.Trap_menu_header{
+	display: flex;
+	justify-content: center;
+}
+
+.trap_menu{
+	width: 100%;
+	height: 490px;
+	background: #131F35;
+}
+
+#Air_conditioner{
+	font-size: 13px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-around;
+}
+.text_h_trap a{
+	color: white;
+	text-decoration-line: none; 
+	background-color: #1A263B;
+	border-radius: 5px;
+	padding: 4px;
+}
+.text_h_trap a:hover{
+	color: lightblue;
+}
+.trap_header{
+	display: flex;
+	justify-content: center;
+}
+.contact_info{
+	width: 350px;
+	color: #B9B9B9;
+	font-size: 13.5px;
+	line-height: 101%;
+}
+.polices{
+	width: 180px;
+	color: #B9B9B9;
+	font-size: 13.5px;
+	line-height: 105%;
+}
+#Your_email{
+	width: 330px;
+	height: 40px;
+	font-size: 14px;
+	font-style: italic;
+	color: rgb(171 171 171);
+}
+
+#Grey_line__2{
+	width: 1160px;
+	height: 2.3px;
+	background: #B9B9B9;
+}
+
+.GoStore_all{
+	display: flex;
+	justify-content: center;
+}
+
+.GoStore__1{
+	color: #B9B9B9;
+	font-size: 15px;
+}
+
+.GoStore__2{
+	width: 270px;
+}
+
+.btns{
+	width: 400px;
+}
+
+#buttons{
+	width: 40px;
+	height: 26px;
+	color: #C4C4C4;
+}
